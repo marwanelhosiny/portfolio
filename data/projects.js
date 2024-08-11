@@ -2,7 +2,7 @@ const projects = [
   {
     name: "Dar-Alnokhba",
     description:
-      "This website is designed specifically for Daralnokhba Company, based in Kuwait. It allows employees to add contracts, receipts, and bonds using saved templates, with dates and signatures automatically added. The system enables easy searching for any document and allows administrators to edit templates as needed.",
+      "This website lets employees manage contracts, receipts, and bonds with automated dates and signatures. It includes easy document search and admin-editable templates.",
     pic: "/Dar-Alnokhba.png",
     tech: ["React", "Nest.js", "MongoDB"],
     links: [
@@ -16,7 +16,7 @@ const projects = [
   {
     name: "Post-Bet",
     description:
-      " Postbet App enables users to publish posts within our app and simultaneously share them across multiple platforms such as Facebook, Twitter, TikTok, and more with a single click. The ability to publish on multiple platforms is based on the subscribed plan, providing seamless and efficient content distribution.",
+      "Postbet App allows users to publish posts within the app and share them across Social Media platforms with one click.",
     pic: "/Post-Bet.png",
     tech: ["Flutter", "Nest.js", "PostgreSQL"],
     links: [
