@@ -1,6 +1,8 @@
 /* eslint-disable no-console */
+// eslint-disable-next-line no-unused-vars
 import { Box, Link, Stack, Text } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
+// eslint-disable-next-line no-unused-vars
 import { GoRepoForked, GoStar } from "react-icons/go";
 import { animateScroll as scroll } from "react-scroll";
 
@@ -33,7 +35,6 @@ export default function Footer() {
           {" (and React) by Marwan Abdelghany"}
         </Text>
       </Link>
-
 
       <Text fontSize="sm" mt={2} onClick={scroll.scrollToTop}>
         <span role="img" aria-label="rocket">

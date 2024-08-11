@@ -12,7 +12,10 @@ import theme from "../theme";
 const SiteHead = ({ title }) => (
   <Head>
     <title>{title}</title>
-    <meta name="title" content="Marwan Abdelghany - Backend Developer && DevOps Engineer" />
+    <meta
+      name="title"
+      content="Marwan Abdelghany - Backend Developer && DevOps Engineer"
+    />
     <meta name="description" content="Marwan Abdelghany - Portfolio" />
     <link rel="icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/logo192.png" />
@@ -20,10 +23,7 @@ const SiteHead = ({ title }) => (
     <meta name="theme-color" content="#252934" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://github.com/marwanelhosiny" />
-    <meta
-      property="og:title"
-      content="Marwan Abdelghany - BackEnd Developer"
-    />
+    <meta property="og:title" content="Marwan Abdelghany - BackEnd Developer" />
     <meta
       property="og:description"
       content="Marwan Abdelghany's personal portfolio"

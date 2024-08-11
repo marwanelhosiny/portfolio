@@ -17,8 +17,8 @@ const Bio = ({ secondary }) => (
   <GridItem>
     <VStack m="auto" w="75%" spacing="12px" pt="5%">
       <Text>
-        Hi, I&apos;m Marwan! I studied Engineering at the University of
-        Tanta, and I&apos;m currently working at{" "}
+        Hi, I&apos;m Marwan! I studied Engineering at the University of Tanta,
+        and I&apos;m currently working at{" "}
         <Link href="https://targetfortech.com/" isExternal>
           Target Agency for Software Solutions
         </Link>{" "}
@@ -33,11 +33,9 @@ const Bio = ({ secondary }) => (
         I enjoy creating scalable & elegant web/mobile applications that have a
         real-world impact. I&apos;m always learning new technologies, either
         through formal training or self-study - and recently added{" "}
-        <strong style={{ color: secondary }}>DevOps Engineering</strong>{" "}
-        to my expertise.
+        <strong style={{ color: secondary }}>DevOps Engineering</strong> to my
+        expertise.
       </Text>
-
-
     </VStack>
   </GridItem>
 );

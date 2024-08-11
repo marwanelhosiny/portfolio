@@ -34,7 +34,7 @@ const navBtns = [
   },
   {
     label: "Contact",
-  }
+  },
 ];
 
 const Logo = () => {

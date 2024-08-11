@@ -18,7 +18,7 @@ const projects = [
     description:
       " Postbet App enables users to publish posts within our app and simultaneously share them across multiple platforms such as Facebook, Twitter, TikTok, and more with a single click. The ability to publish on multiple platforms is based on the subscribed plan, providing seamless and efficient content distribution.",
     pic: "/Post-Bet.png",
-    tech: ["Flutter", "Nest.js","PostgreSQL"],
+    tech: ["Flutter", "Nest.js", "PostgreSQL"],
     links: [
       {
         label: "MobileApp",
@@ -26,7 +26,7 @@ const projects = [
         url: "https://play.google.com/store/apps/details?id=com.postBet.post_bet",
       },
     ],
-  }
+  },
 ];
 
 export const extraProjects = [
@@ -49,7 +49,7 @@ export const extraProjects = [
     type: "Training",
     description:
       "This application enables users to browse and apply for job postings. It allows HR personnel from companies to post job openings with detailed descriptions and compare job descriptions with applicant profiles to find the best matches",
-    tech: [ "express.js", "MongoDB"],
+    tech: ["express.js", "MongoDB"],
     links: [
       {
         label: "Github",
@@ -61,8 +61,9 @@ export const extraProjects = [
   {
     name: "Chat-App",
     type: "Training",
-    description: "This is a chatting platform designed for real-time communication. It utilizes Socket.io to facilitate instant messaging and interactions. User details are securely stored in an encrypted format, ensuring privacy and data protection.",
-    tech: ["express.js","MongoDB"],
+    description:
+      "This is a chatting platform designed for real-time communication. It utilizes Socket.io to facilitate instant messaging and interactions. User details are securely stored in an encrypted format, ensuring privacy and data protection.",
+    tech: ["express.js", "MongoDB"],
     links: [
       {
         label: "Github",
@@ -82,7 +83,7 @@ export const extraProjects = [
         label: "Github",
         icon: "github",
         url: "https://github.com/marwanelhosiny/upVoteApp",
-      }
+      },
     ],
   },
   {
@@ -90,15 +91,15 @@ export const extraProjects = [
     type: "Training",
     description:
       "This Task Management app allows managers to assign tasks to employees, set deadlines, and monitor progress. Managers can browse and track tasks ensuring clear communication and efficient workflow management.",
-    tech: ["express.js","MongoDB"],
+    tech: ["express.js", "MongoDB"],
     links: [
       {
         label: "Github",
         icon: "github",
         url: "https://github.com/marwanelhosiny/toDoApp",
-      }
+      },
     ],
-  }
+  },
 ];
 
 export default projects;
