@@ -4,9 +4,9 @@
   "display": "browser",
   "scope": "/",
   "start_url": "/",
-  "name": "Jarrod Servilla - Full Stack Developer",
-  "short_name": "Jarrod Servilla",
-  "description": "Jarrod Servilla's portfolio",
+  "name": "Marwan Abdelghany - BackEnd Developer",
+  "short_name": "Marwan Abdelghany",
+  "description": "Marwan Abdelghany's portfolio",
   "icons": [
     {
       "src": "/icon-192x192.png",

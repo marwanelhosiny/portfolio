@@ -34,11 +34,7 @@ const navBtns = [
   },
   {
     label: "Contact",
-  },
-  {
-    label: "Blog",
-    href: "https://jarrod-servilla.medium.com/",
-  },
+  }
 ];
 
 const Logo = () => {

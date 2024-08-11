@@ -17,48 +17,27 @@ const Bio = ({ secondary }) => (
   <GridItem>
     <VStack m="auto" w="75%" spacing="12px" pt="5%">
       <Text>
-        Hi, I&apos;m Jarrod! I studied computer science at the University of
-        Toronto, and I&apos;m currently working at{" "}
-        <Link href="getdbt.com/" isExternal>
-          dbt Labs
+        Hi, I&apos;m Marwan! I studied Engineering at the University of
+        Tanta, and I&apos;m currently working at{" "}
+        <Link href="https://targetfortech.com/" isExternal>
+          Target Agency for Software Solutions
         </Link>{" "}
         as a <strong style={{ color: secondary }}>Software Engineer</strong> on
-        the{" "}
-        <Link href="https://www.getdbt.com/product/dbt-explorer" isExternal>
-          Metadata team
-        </Link>
-        . Prior to that, I&apos;ve worked at{" "}
-        <Link href="https://www.sailpoint.com/" isExternal>
-          SailPoint
-        </Link>
-        ,{" "}
-        <Link href="https://www.citigroup.com/citi/" isExternal>
-          Citigroup
-        </Link>
-        , and {"  "}
-        <Link href="https://citylitics.com/" isExternal>
-          Citylitics
+        the Development Team. Prior to that, I&apos;ve worked at{" "}
+        <Link href="https://www.abchosting.com/" isExternal>
+          ABC Hosting Ltd
         </Link>{" "}
-        as a <strong style={{ color: secondary }}>Software Developer</strong>.
+        as a <strong style={{ color: secondary }}>TypeScript Developer</strong>.
       </Text>
       <Text>
         I enjoy creating scalable & elegant web/mobile applications that have a
-        real world impact. I&apos;m always learning new technologies, either
-        through{" "}
-        <Link href="https://devpost.com/jcserv" isExternal>
-          hackathons
-        </Link>{" "}
-        or self-study - and recently became an{" "}
-        <strong style={{ color: secondary }}>
-          <Link
-            href="https://www.credly.com/badges/517ae2cf-990f-4e3f-acf7-c7dc692c67a0/public_url"
-            isExternal
-          >
-            AWS Certified Developer
-          </Link>
-        </strong>
-        .
+        real-world impact. I&apos;m always learning new technologies, either
+        through formal training or self-study - and recently added{" "}
+        <strong style={{ color: secondary }}>DevOps Engineering</strong>{" "}
+        to my expertise.
       </Text>
+
+
     </VStack>
   </GridItem>
 );
@@ -68,11 +47,11 @@ const Headshot = () => (
     <Image
       m="auto"
       src="/me.jpg"
-      alt="Jarrod Servilla"
+      alt="Marwan Abdelghany"
       zIndex={1}
       className="image"
       onClick={() => {
-        window.open("http://linkedin.com/in/jarrod-servilla");
+        window.open("https://www.linkedin.com/in/marwan-abdelghany-5b520824b/");
       }}
     />
   </GridItem>

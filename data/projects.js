@@ -1,91 +1,56 @@
 const projects = [
   {
-    name: "ULinks.io",
+    name: "Dar-Alnokhba",
     description:
-      "ULinks.io is a platform for students to browse & upload academic group chats to stay connected during online school",
-    pic: "/ulinks.PNG",
-    tech: ["React", "GraphQL", "Node.js"],
-    links: [
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/jcserv/ulinks",
-      },
-    ],
-  },
-  {
-    name: "UTM TA Application System",
-    description:
-      "UTAP is the official platform for all MCS TA postings @ UTM enabling students and instructors to apply for postings and manage applications.",
-    pic: "/utap.png",
-    tech: ["React", "Node.js"],
+      "This website is designed specifically for Daralnokhba Company, based in Kuwait. It allows employees to add contracts, receipts, and bonds using saved templates, with dates and signatures automatically added. The system enables easy searching for any document and allows administrators to edit templates as needed.",
+    pic: "/Dar-Alnokhba.PNG",
+    tech: ["React", "Nest.js", "MongoDB"],
     links: [
       {
         label: "Website",
         icon: "link",
-        url: "https://utap.utm.utoronto.ca/utap/",
+        url: "https://daralnokhbaestrealestatebrokerage.com/home",
       },
     ],
   },
   {
-    name: "PostureAI",
+    name: "Post-Bet",
     description:
-      "PostureAI is an AI powered posture improvement web app, used by 200 monthly active users, that helps you maintain healthy posture while working.",
-    subtitle: "1st Place in Best Use of GCP",
-    pic: "/postureai.png",
-    tech: ["React", "TypeScript"],
+      " Postbet App enables users to publish posts within our app and simultaneously share them across multiple platforms such as Facebook, Twitter, TikTok, and more with a single click. The ability to publish on multiple platforms is based on the subscribed plan, providing seamless and efficient content distribution.",
+    pic: "/Post-Bet.png",
+    tech: ["Flutter", "Nest.js","PostgreSQL"],
     links: [
       {
-        label: "Website",
+        label: "MobileApp",
         icon: "link",
-        url: "https://postureai.tech/",
-      },
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/jcserv/PostureAI",
-      },
-      {
-        label: "Demo",
-        icon: "youtube",
-        url: "https://www.youtube.com/watch?v=SqUmP6npKYM",
-      },
-      {
-        label: "Devpost",
-        icon: "devpost",
-        url: "https://devpost.com/software/placeholder-9gjdst",
+        url: "https://play.google.com/store/apps/details?id=com.postBet.post_bet",
       },
     ],
-  },
+  }
 ];
 
 export const extraProjects = [
   {
-    name: "SQL Automarker",
-    type: "Research",
+    name: "E-Commerce",
+    type: "Training",
     description:
-      "Microservices architecture enabling SQL automarking with admin panel",
-    tech: ["React", "Node.js", "MongoDB", "Docker"],
+      "This project enables vendors to add their brands and products in a structured system categorized. Users can easily search, find their desired items, add them to their cart, and purchase products directly from the website",
+    tech: ["express.js", "MongoDB"],
     links: [
       {
         label: "Project",
-        icon: "link",
-        url: "https://www.michaelliut.ca/projects.html",
+        icon: "github",
+        url: "https://github.com/marwanelhosiny/eCommerce-App",
       },
     ],
   },
   {
-    name: "ResumeWords",
-    type: "Personal",
+    name: "JobSearch App",
+    type: "Training",
     description:
-      "A tool that identifies keywords in job postings using ML that will improve your chances of getting a job.",
-    tech: ["React", "TypeScript", "Docker"],
+      "This application enables users to browse and apply for job postings. It allows HR personnel from companies to post job openings with detailed descriptions and compare job descriptions with applicant profiles to find the best matches",
+    tech: [ "express.js", "MongoDB"],
     links: [
-      {
-        label: "Website",
-        icon: "link",
-        url: "https://resume-words.com/",
-      },
       {
         label: "Github",
         icon: "github",
@@ -94,181 +59,46 @@ export const extraProjects = [
     ],
   },
   {
-    name: "AnonBot",
-    type: "Personal",
-    description: "Discord bot for anonymous messaging, with 2100 messages sent",
-    tech: ["Node.js"],
+    name: "Chat-App",
+    type: "Training",
+    description: "This is a chatting platform designed for real-time communication. It utilizes Socket.io to facilitate instant messaging and interactions. User details are securely stored in an encrypted format, ensuring privacy and data protection.",
+    tech: ["express.js","MongoDB"],
     links: [
       {
         label: "Github",
         icon: "github",
-        url: "https://github.com/white-van/WVAnonBot",
+        url: "https://github.com/marwanelhosiny/chatApp",
       },
     ],
   },
   {
-    name: "Citrade",
-    type: "Work",
+    name: "upVote App",
+    type: "Training",
     description:
-      "Citrade is a proof-of-concept for a retail investment brokerage, equipped with an easy-to-use UI and detailed analytics.",
-    tech: ["React", "AWS"],
+      "This app allows users to discover, share, and organize a wide variety of content including images, products, and videos. It serves as a versatile platform for finding inspiration and curating collections that span multiple media types.",
+    tech: ["express.js", "MongoDB"],
     links: [
       {
         label: "Github",
         icon: "github",
-        url: "https://github.com/jcserv/citrade-frontend",
-      },
-      {
-        label: "Website",
-        icon: "link",
-        url: "https://main.d2mbmzkt6yj28g.amplifyapp.com/",
-      },
+        url: "https://github.com/marwanelhosiny/upVoteApp",
+      }
     ],
   },
   {
-    name: "UTM CSSC Website",
-    type: "Work",
+    name: "toDoApp",
+    type: "Training",
     description:
-      "The CSSC Website is an open space for UTM CS students to ask questions, use academic tools, and get connected within the CS community.",
-    tech: ["Vue"],
+      "This Task Management app allows managers to assign tasks to employees, set deadlines, and monitor progress. Managers can browse and track tasks ensuring clear communication and efficient workflow management.",
+    tech: ["express.js","MongoDB"],
     links: [
       {
         label: "Github",
         icon: "github",
-        url: "https://github.com/utm-cssc/website",
-      },
-      {
-        label: "Website",
-        icon: "link",
-        url: "https://cssc.utm.utoronto.ca/",
-      },
+        url: "https://github.com/marwanelhosiny/toDoApp",
+      }
     ],
-  },
-  {
-    name: "CollabCloud",
-    type: "School",
-    description:
-      "Social networking platform allowing users to find collaborators for software projects.",
-    tech: ["React", "Node.js", "PostgreSQL"],
-    links: [
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/collabcloud/project-collabcloud",
-      },
-      {
-        label: "Demo",
-        icon: "youtube",
-        url: "https://youtu.be/bPAOhb8r5Co",
-      },
-    ],
-  },
-  {
-    name: "freeflo.io",
-    type: "Hackathon",
-    description:
-      "Full stack web application enabling collaborative & open source journalism",
-    tech: ["React", "Redux", "Next.js"],
-    links: [
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/white-van/freeflo.io",
-      },
-      {
-        label: "Demo",
-        icon: "youtube",
-        url: "https://www.youtube.com/watch?v=pXDF2kgQGtk",
-      },
-    ],
-  },
-  {
-    name: "Portfolio V1",
-    type: "Personal",
-    description: "My old personal portfolio, deployed with Heroku",
-    tech: ["React", "Express", "MongoDB"],
-    links: [
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/jcserv/portfoliov1",
-      },
-      {
-        label: "Website",
-        icon: "link",
-        url: "https://infinite-inlet-11529.herokuapp.com/",
-      },
-    ],
-  },
-  {
-    name: "HarMoney",
-    type: "Hackathon",
-    description: "Mobile application enabling users to split transactions",
-    tech: ["React Native", "Node.js"],
-    links: [
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/matthuynh/harmoney",
-      },
-      {
-        label: "Demo",
-        icon: "youtube",
-        url: "https://youtu.be/s13y0c__6u4",
-      },
-      {
-        label: "Devpost",
-        icon: "devpost",
-        url: "https://devpost.com/software/harmoney-ci42yp",
-      },
-    ],
-  },
-  {
-    name: "InsurApp",
-    type: "Hackathon",
-    description: "Micro insurance mobile app using image recognition",
-    tech: ["Android Studio", "Flask", "AWS"],
-    links: [
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/jcserv/InsurApp",
-      },
-    ],
-  },
-  {
-    name: "VapeSafe",
-    type: "Hackathon",
-    description:
-      "Mobile + hardware solution allowing users to quit vaping, won 3rd Place",
-    tech: ["Android Studio", "Arduino"],
-    links: [
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/leviaviv28/VapeSafe-EngHack2019",
-      },
-      {
-        label: "Devpost",
-        icon: "devpost",
-        url: "https://devpost.com/software/vapesafe/",
-      },
-    ],
-  },
-  {
-    name: "ETH-Aion Atomic Swap",
-    type: "Hackathon",
-    description:
-      "Atomic swap protocol for ETH & Aion cryptocurrencies, earning Top 6",
-    tech: ["Java"],
-    links: [
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/jcserv/AtomicSwap",
-      },
-    ],
-  },
+  }
 ];
 
 export default projects;

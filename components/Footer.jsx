@@ -7,14 +7,14 @@ import { animateScroll as scroll } from "react-scroll";
 import links from "../data/footerLinks";
 import LinkIconBar from "./LinkIconBar";
 
-const GITHUB_URL = "https://github.com/jcserv/portfolio";
+const GITHUB_URL = "https://github.com/marwanelhosiny";
 
 export default function Footer() {
   const [forks, setForks] = useState(0);
   const [stars, setStars] = useState(0);
 
   useEffect(() => {
-    fetch("https://api.github.com/repos/jcserv/portfolio")
+    fetch("https://github.com/marwanelhosiny")
       .then((response) => response.json()) // Converting the response to a JSON object
       .then((data) => {
         setForks(data.forks);
@@ -30,13 +30,10 @@ export default function Footer() {
           <span aria-label="heart" role="img">
             &#128153;
           </span>
-          {" (and React) by Jarrod Servilla"}
+          {" (and React) by Marwan Abdelghany"}
         </Text>
       </Link>
-      <Stack direction="row" alignItems="center" justify="center">
-        <GoRepoForked /> <Text size="xs">{forks}</Text>
-        <GoStar /> <Text size="xs">{stars}</Text>
-      </Stack>
+
 
       <Text fontSize="sm" mt={2} onClick={scroll.scrollToTop}>
         <span role="img" aria-label="rocket">
