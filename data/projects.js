@@ -3,7 +3,7 @@ const projects = [
     name: "Dar-Alnokhba",
     description:
       "This website is designed specifically for Daralnokhba Company, based in Kuwait. It allows employees to add contracts, receipts, and bonds using saved templates, with dates and signatures automatically added. The system enables easy searching for any document and allows administrators to edit templates as needed.",
-    pic: "/Dar-Alnokhba.PNG",
+    pic: "/Dar-Alnokhba.png",
     tech: ["React", "Nest.js", "MongoDB"],
     links: [
       {
