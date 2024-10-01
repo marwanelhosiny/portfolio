@@ -1,5 +1,19 @@
 const projects = [
   {
+    name: "Glarus-Platform",
+    description:
+      "An innovative digital platform that enables Enables users to create digital cards containing all their social media data, with the ability to Add a short profile.",
+    pic: "/Glarus.png",
+    tech: ["React", "express.js", "PostgreSQL"],
+    links: [
+      {
+        label: "Website",
+        icon: "link",
+        url: "https://jaleros.com/",
+      },
+    ],
+  },
+  {
     name: "Dar-Alnokhba",
     description:
       "This website lets employees manage contracts, receipts, and bonds with automated dates and signatures. It includes easy document search and admin-editable templates.",
