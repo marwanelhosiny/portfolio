@@ -2,7 +2,7 @@ const projects = [
   {
     name: "Glarus-Platform",
     description:
-      "An innovative digital platform that enables Enables users to create digital cards containing all their social media data, with the ability to Add a short profile.",
+      "An innovative digital platform that enables users to create digital cards containing all their social media data, with the ability to Add a short profile.",
     pic: "/Glarus.png",
     tech: ["React", "express.js", "PostgreSQL"],
     links: [
